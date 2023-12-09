@@ -1,0 +1,36 @@
+{% extends "baseTemplates/index.html" %}
+{% load static %}
+
+      
+
+{% block content %}
+      <!-- LEADERBOARD SECTION -->
+      <div class="container text-center">
+            <h1 class="display-5 fw-semibold">Leaderboard</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                <div class="col">
+                    <img src="{{}}" alt="" class="profile img-fluid" height="300" width="300">
+                    <h4>Username</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis cupiditate officia?</p>
+                    <a href="/profile.html" class="btn btn-secondary">View Profile</a>
+                </div>
+
+                <div class="col">
+                    <img src="images/userprofile.png" alt="" class="profile img-fluid"  height="300" width="300">
+                    <h4>Username</h4>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis cupiditate officia </p>
+                    <a href="/profile.html" class="btn btn-secondary">View Profile</a>
+                </div>
+
+                <div class="col">
+                    <img src="images/userprofile.png" alt="" class="profile img-fluid"  height="300" width="300">
+                    <h4>Username</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis cupiditate officia </p>
+                    <a href="/profile.html" class="btn btn-secondary">View Profile</a>
+                </div>
+                
+            </div>
+      </div>
+      {% endblock content %}
+
